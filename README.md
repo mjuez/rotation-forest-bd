@@ -19,6 +19,10 @@ Departamento de Ingeniería Informática\
 Universidad de Burgos\
 [ADMIRABLE Research Group](http://admirable-ubu.es/)
 
+## Experiments
+
+The experiments are available in [this repository](https://github.com/mjuez/rotation-forest-spark).
+
 ## Installation
 
 RotationForest-BD is available on SparkPackages.
@@ -132,7 +136,7 @@ Feel free to submit any pull requests 😊
 
 ## Aknowledgments
 
-This work was supported through project TIN2015-67534-P (MINECO/FEDER, UE) of the *Ministerio de Economía y Competitividad* of the Spanish Government, project BU085P17 (JCyL/FEDER, UE) of the *Junta de Castilla y León* (both projects co-financed through European Union FEDER funds), and by the *Consejería de Educación* of the *Junta de Castilla y León* and the European Social Fund through a pre-doctoral grant (EDU/1100/2017).
+This work was supported through project TIN2015-67534-P (MINECO/FEDER, UE) of the *Ministerio de Economía y Competitividad* of the Spanish Government, project BU085P17 (JCyL/FEDER, UE) of the *Junta de Castilla y León* (both projects co-financed through European Union FEDER funds), and by the *Consejería de Educación* of the *Junta de Castilla y León* and the European Social Fund through a pre-doctoral grant (EDU/1100/2017). The project leading to these results has received also funding from "la Caixa" Foundation, under agreement LCF/PR/PR18/51130007.
 This material is based upon work supported by Google Cloud.
 
 ## License
