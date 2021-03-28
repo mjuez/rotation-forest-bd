@@ -11,8 +11,8 @@ RotationForest-BD is currently implemented in **Scala 2.12** for Apache **Spark 
 ## Authors
 
 - Mario Juez-Gil <<mariojg@ubu.es>>
-- Juan J. Rodríguez
 - Álvar Arnaiz-González
+- Juan J. Rodríguez
 - Carlos López-Nozal
 - César García-Osorio
 
