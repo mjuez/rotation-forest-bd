@@ -1,5 +1,7 @@
 # RotationForest-BD: Rotation Forest for Big Data
 
+https://doi.org/10.1016/j.inffus.2021.03.007
+
 This repository contains an implementation of [Rotation Forest](https://ieeexplore.ieee.org/document/1677518) [[1]](#ref_1) for Apache Spark framework.
 
 By means of using parallel PCA provided by Spark and a novel approach for rotating the data using parallel matrix multiplications, Rotation Forest can now be used within Big Data.
@@ -134,10 +136,9 @@ Feel free to submit any pull requests 😊
 
 <a name="ref_1"></a>[1] Rodriguez, J. J., Kuncheva, L. I., & Alonso, C. J. (2006). Rotation Forest: A New Classifier Ensemble Method. IEEE Transactions on Pattern Analysis and Machine Intelligence, 28(10), 1619–1630. [https://doi.org/10.1109/TPAMI.2006.211](https://doi.org/10.1109/TPAMI.2006.211)
 
-## Aknowledgments
+## Aknowledgements
 
-This work was supported through project TIN2015-67534-P (MINECO/FEDER, UE) of the *Ministerio de Economía y Competitividad* of the Spanish Government, project BU085P17 (JCyL/FEDER, UE) of the *Junta de Castilla y León* (both projects co-financed through European Union FEDER funds), and by the *Consejería de Educación* of the *Junta de Castilla y León* and the European Social Fund through a pre-doctoral grant (EDU/1100/2017). The project leading to these results has received also funding from "la Caixa" Foundation, under agreement LCF/PR/PR18/51130007.
-This material is based upon work supported by Google Cloud.
+This work was supported through project TIN2015-67534-P (MINECO/FEDER, UE) of the *Ministerio de Economía y Competitividad* of the Spanish Government, projects BU085P17 and BU055P20 (JCyL/FEDER, UE) of the *Junta de Castilla y León* (both projects co-financed through European Union FEDER funds), and by the *Consejería de Educación* of the *Junta de Castilla y León* and the European Social Fund through a pre-doctoral grant (EDU/1100/2017). The project leading to these results has received also funding from "la Caixa" Foundation, under agreement LCF/PR/PR18/51130007. This material is based upon work supported by Google Cloud.
 
 ## License
 
@@ -145,4 +146,18 @@ This work is licensed under [Apache-2.0](LICENSE).
 
 ## Citation policy
 
-This work is currently under review process, and citation policy will be available after its publication.
+Please cite this research as:
+
+```
+@ARTICLE{juezgil2021rotfbd,
+title = "Rotation Forest for Big Data",
+author = "Mario Juez-Gil and Álvar Arnaiz-González and Juan J. Rodríguez and Carlos López-Nozal and César García-Osorio",
+journal = "Information Fusion",
+year = "2021",
+volume = "",
+issn = "1566-2535",
+doi = "https://doi.org/10.1016/j.inffus.2021.03.007",
+url = "https://www.sciencedirect.com/science/article/pii/S1566253521000634",
+keywords = "Rotation Forest, Random Forest, Ensemble learning, Machine learning, Big Data, Spark",
+}
+```
