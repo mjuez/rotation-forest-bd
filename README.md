@@ -73,7 +73,7 @@ RotationForest-BD may be adjusted using the following parameters:
 - `numRotations`: The number of rotations that will be performed to the training data. Each rotation will be the training data of a single RandomForest. Default: `10`.
 - `normalizeData`: When true, input dataset will be normalized. Data normalization could improve the performance. Default: `true`.
 
-As Rotation Forest is a tree-based ensemble, which specifically uses the Spark Random Forest implementation as base classifier, all Roandom Forest parameters could also be adjusted: `numTrees` `bootstrap`, `subsamplingRate`, `maxDepth`, `maxBins`, `minInstancesPerNode`, `minWeightFractionPerNode`, `minInfoGain`, `checkpointInterval`, `seed`, `maxMemoryInMB`, `leafCol`, and `cacheNodeIds`. For a detailed explanation about the use of any of those parameters, you should refer to the Spark Random Forest documentation.
+As Rotation Forest is a tree-based ensemble, which specifically uses the Spark Random Forest implementation as base classifier, all Random Forest parameters could also be adjusted: `numTrees` `bootstrap`, `subsamplingRate`, `maxDepth`, `maxBins`, `minInstancesPerNode`, `minWeightFractionPerNode`, `minInfoGain`, `checkpointInterval`, `seed`, `maxMemoryInMB`, `leafCol`, and `cacheNodeIds`. For a detailed explanation about the use of any of those parameters, you should refer to the Spark Random Forest documentation.
 
 The following example shows how to build and save a Rotation Forest ensemble where data is rotated 10 times and each rotation is used to train 10 trees. Thus, the ensemble size will be 100 (10x10):
 
